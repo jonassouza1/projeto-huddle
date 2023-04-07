@@ -1,0 +1,131 @@
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/src/imagens/bg-desktop.svg);
+    background-color: var(--Violet);
+    width: 1440px;
+    height: 800px;
+}
+
+.container .title {
+    height: 103px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: end;
+}
+
+.container .title .logo {
+    margin-left: 69px;
+    width: 220px;
+}
+
+.container .hero {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 600px;
+}
+
+.container .hero .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .hero .page .illustration {
+    height: auto;
+}
+
+.container .hero .page .info {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: start;
+    height: 470px;
+    width: 580px;
+    flex: 40%;
+}
+
+.container .hero .page .info .info-text {
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.container .hero .page .info h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+
+
+}
+
+.container .hero .page .info p {
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 22px;
+    color: #fff;
+
+}
+
+.container .hero .page .info .btn {
+    background-color: #fff;
+    color: var(--Violet);
+    padding: 16px 66px;
+    border-radius: 50px;
+    font-size: 20px;
+    border: none;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.container .hero .page .info .btn:hover {
+    cursor: pointer;
+    background-color: var(--Soft);
+    color: #fff;
+}
+
+.container .societ {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    margin-right: 70px;
+    height: 60px;
+}
+
+
+.container .societ .link {
+    border-radius: 100%;
+    border: solid 1px #fff;
+    padding: 6px 11px;
+    margin: 7px;
+    transition: 0.3s;
+}
+
+.container .societ .link:hover {
+    border: solid 2px rgb(211, 80, 211);
+}
+
+.container .societ .link .fa-facebook-f,
+.fa-twitter,
+.fa-instagram {
+    font-size: 20px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.container .societ .link:hover .fa-facebook-f,
+.link:hover .fa-instagram,
+.link:hover .fa-twitter {
+    cursor: pointer;
+    color: rgb(255, 74, 255);
+}
