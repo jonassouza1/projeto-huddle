@@ -4,13 +4,14 @@ body {
     justify-content: center;
     align-items: center;
     font-family: 'Open Sans', sans-serif;
+    background-image: url(/src/imagens/bg-desktop.svg);
+    background-color: var(--Violet);
+    background-size: cover;
 }
 
 .container {
     display: flex;
     flex-direction: column;
-    background-image: url(/src/imagens/bg-desktop.svg);
-    background-color: var(--Violet);
     width: 1440px;
     height: 800px;
 }
